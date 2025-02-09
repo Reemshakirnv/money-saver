@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 1 - Save 20 Rupees</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Level 1: Save 20 Rupees</h1>
+    <p class="subtitle">Track your savings of 4 rupees each week for 5 weeks.</p>
+
+    <!-- Instructions -->
+    <div class="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Save 3-4 rupees daily.</li>
+        <li>Use a piggy bank.</li>
+        <li>Track your savings every Sunday.</li>
+        <li>Remind yourself daily.</li>
+      </ul>
+    </div>
+
+    <!-- Weekly Savings Tracker -->
+    <div class="tasks">
+      <h2>Weekly Savings Tracker</h2>
+      <p>Save 4 rupees each week for 5 weeks:</p>
+      <form id="taskForm">
+        <label><input type="checkbox" id="week1"> Week 1: Saved 4 rupees</label><br>
+        <label><input type="checkbox" id="week2"> Week 2: Saved 4 rupees</label><br>
+        <label><input type="checkbox" id="week3"> Week 3: Saved 4 rupees</label><br>
+        <label><input type="checkbox" id="week4"> Week 4: Saved 4 rupees</label><br>
+        <label><input type="checkbox" id="week5"> Week 5: Saved 4 rupees</label><br>
+      </form>
+    </div>
+
+    <!-- Complete Button -->
+    <button id="completeButton" disabled>Complete Level</button>
+  </div>
+
+  <script src="level1Script.js"></script>
+</body>
+</html>
